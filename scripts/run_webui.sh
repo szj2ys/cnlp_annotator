@@ -5,4 +5,4 @@
 
 pip install -r requirements.txt
 
-python chi_annotator/webui/webuiapis/manage.py runserver
+python cnlp_annotator/webui/webuiapis/manage.py runserver

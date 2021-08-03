@@ -1,5 +1,5 @@
 {
-  "name": "cn_annotator",
+  "name": "cnlp_annotator",
   "version": "0.1.0",
   "private": true,
   "scripts": {

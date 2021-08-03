@@ -1,11 +1,13 @@
 jsonschema
 simplejson
+click
+black
+click_help_colors
 idna==2.5
 itsdangerous==0.24
 Jinja2==2.11.3
 requests==2.20.0
 six==1.12.0
-urllib3==1.26.5
 Werkzeug==0.12.2
 pymongo==3.4.0
 gensim==2.3.0
@@ -13,7 +15,7 @@ cloudpickle
 numpy
 jieba
 docopt
-scikit-learn==0.18.1
+scikit-learn~=0.24
 django==2.2.24
 Markdown==2.6.10
 django-cors-headers==2.1.0

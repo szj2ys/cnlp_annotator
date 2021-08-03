@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+export PATH=/usr/local/mongodb/bin:$PATH
+
 mongo ca -eval "db.dropDatabase()"
 mongo ca -eval "db.createUser({user:\"anno_admin\", pwd:\"123\", roles:[\"readWrite\", \"dbAdmin\"]})"
 

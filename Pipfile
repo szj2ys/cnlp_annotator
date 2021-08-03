@@ -1,0 +1,34 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jsonschema = "*"
+simplejson = "*"
+click = "*"
+click-help-colors = "*"
+idna = "==2.5"
+itsdangerous = "==0.24"
+jinja2 = "==2.11.3"
+requests = "==2.20.0"
+six = "==1.12.0"
+urllib3 = "==1.26.5"
+werkzeug = "==0.12.2"
+pymongo = "==3.4.0"
+gensim = "==2.3.0"
+cloudpickle = "*"
+numpy = "*"
+jieba = "*"
+docopt = "*"
+scikit-learn = "==0.18.1"
+django = "==2.2.24"
+markdown = "==2.6.10"
+django-cors-headers = "==2.1.0"
+djangorestframework = "==3.11.2"
+pytest = "*"
+
+[requires]
+python_version = "3.7"
